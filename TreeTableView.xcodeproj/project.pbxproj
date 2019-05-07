@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D64F211722818B3F00E35C19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F211622818B3F00E35C19 /* AppDelegate.swift */; };
+		D64F211E22818B4000E35C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64F211D22818B4000E35C19 /* Assets.xcassets */; };
+		D64F212122818B4000E35C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64F211F22818B4000E35C19 /* LaunchScreen.storyboard */; };
+		D64F212C22818B4000E35C19 /* TreeTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F212B22818B4000E35C19 /* TreeTableViewTests.swift */; };
+		D64F213722818B4000E35C19 /* TreeTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F213622818B4000E35C19 /* TreeTableViewUITests.swift */; };
+		D64F214922818B8D00E35C19 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F214522818B8D00E35C19 /* TreeNode.swift */; };
+		D64F214A22818B8D00E35C19 /* DataInof.plist in Resources */ = {isa = PBXBuildFile; fileRef = D64F214622818B8D00E35C19 /* DataInof.plist */; };
+		D64F214B22818B8D00E35C19 /* DataInofor.plist in Resources */ = {isa = PBXBuildFile; fileRef = D64F214722818B8D00E35C19 /* DataInofor.plist */; };
+		D64F214C22818B8D00E35C19 /* TreeNodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F214822818B8D00E35C19 /* TreeNodeHelper.swift */; };
+		D64F215122818BA100E35C19 /* TreeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F214E22818BA000E35C19 /* TreeTableView.swift */; };
+		D64F215222818BA100E35C19 /* TreeNodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F214F22818BA000E35C19 /* TreeNodeTableViewCell.swift */; };
+		D64F215322818BA100E35C19 /* TreeNodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D64F215022818BA100E35C19 /* TreeNodeTableViewCell.xib */; };
+		D64F215622818BB300E35C19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F215522818BB200E35C19 /* ViewController.swift */; };
+		D64F215A22818BF000E35C19 /* tree_ex.png in Resources */ = {isa = PBXBuildFile; fileRef = D64F215822818BEF00E35C19 /* tree_ex.png */; };
+		D64F215B22818BF000E35C19 /* tree_ec.png in Resources */ = {isa = PBXBuildFile; fileRef = D64F215922818BF000E35C19 /* tree_ec.png */; };
+		D64F216F22818C0B00E35C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64F216E22818C0B00E35C19 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D64F212822818B4000E35C19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D64F210B22818B3F00E35C19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D64F211222818B3F00E35C19;
+			remoteInfo = TreeTableView;
+		};
+		D64F213322818B4000E35C19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D64F210B22818B3F00E35C19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D64F211222818B3F00E35C19;
+			remoteInfo = TreeTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D64F211322818B3F00E35C19 /* TreeTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64F211622818B3F00E35C19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D64F211D22818B4000E35C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D64F212022818B4000E35C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D64F212222818B4000E35C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64F212722818B4000E35C19 /* TreeTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64F212B22818B4000E35C19 /* TreeTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTableViewTests.swift; sourceTree = "<group>"; };
+		D64F212D22818B4000E35C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64F213222818B4000E35C19 /* TreeTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64F213622818B4000E35C19 /* TreeTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTableViewUITests.swift; sourceTree = "<group>"; };
+		D64F213822818B4000E35C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64F214522818B8D00E35C19 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		D64F214622818B8D00E35C19 /* DataInof.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataInof.plist; sourceTree = "<group>"; };
+		D64F214722818B8D00E35C19 /* DataInofor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataInofor.plist; sourceTree = "<group>"; };
+		D64F214822818B8D00E35C19 /* TreeNodeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNodeHelper.swift; sourceTree = "<group>"; };
+		D64F214E22818BA000E35C19 /* TreeTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeTableView.swift; sourceTree = "<group>"; };
+		D64F214F22818BA000E35C19 /* TreeNodeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNodeTableViewCell.swift; sourceTree = "<group>"; };
+		D64F215022818BA100E35C19 /* TreeNodeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TreeNodeTableViewCell.xib; sourceTree = "<group>"; };
+		D64F215522818BB200E35C19 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D64F215822818BEF00E35C19 /* tree_ex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree_ex.png; sourceTree = "<group>"; };
+		D64F215922818BF000E35C19 /* tree_ec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree_ec.png; sourceTree = "<group>"; };
+		D64F216E22818C0B00E35C19 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D64F211022818B3F00E35C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F212422818B4000E35C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F212F22818B4000E35C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D64F210A22818B3F00E35C19 = {
+			isa = PBXGroup;
+			children = (
+				D64F211522818B3F00E35C19 /* TreeTableView */,
+				D64F212A22818B4000E35C19 /* TreeTableViewTests */,
+				D64F213522818B4000E35C19 /* TreeTableViewUITests */,
+				D64F211422818B3F00E35C19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D64F211422818B3F00E35C19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D64F211322818B3F00E35C19 /* TreeTableView.app */,
+				D64F212722818B4000E35C19 /* TreeTableViewTests.xctest */,
+				D64F213222818B4000E35C19 /* TreeTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D64F211522818B3F00E35C19 /* TreeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				D64F211622818B3F00E35C19 /* AppDelegate.swift */,
+				D64F215722818BE500E35C19 /* Supporting Files */,
+				D64F215422818BA900E35C19 /* Controllers */,
+				D64F214D22818B9300E35C19 /* New Group */,
+				D64F214422818B7500E35C19 /* Models */,
+				D64F211D22818B4000E35C19 /* Assets.xcassets */,
+				D64F211F22818B4000E35C19 /* LaunchScreen.storyboard */,
+				D64F216E22818C0B00E35C19 /* Main.storyboard */,
+				D64F212222818B4000E35C19 /* Info.plist */,
+			);
+			path = TreeTableView;
+			sourceTree = "<group>";
+		};
+		D64F212A22818B4000E35C19 /* TreeTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D64F212B22818B4000E35C19 /* TreeTableViewTests.swift */,
+				D64F212D22818B4000E35C19 /* Info.plist */,
+			);
+			path = TreeTableViewTests;
+			sourceTree = "<group>";
+		};
+		D64F213522818B4000E35C19 /* TreeTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D64F213622818B4000E35C19 /* TreeTableViewUITests.swift */,
+				D64F213822818B4000E35C19 /* Info.plist */,
+			);
+			path = TreeTableViewUITests;
+			sourceTree = "<group>";
+		};
+		D64F214422818B7500E35C19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D64F214522818B8D00E35C19 /* TreeNode.swift */,
+				D64F214822818B8D00E35C19 /* TreeNodeHelper.swift */,
+				D64F214722818B8D00E35C19 /* DataInofor.plist */,
+				D64F214622818B8D00E35C19 /* DataInof.plist */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D64F214D22818B9300E35C19 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				D64F214E22818BA000E35C19 /* TreeTableView.swift */,
+				D64F214F22818BA000E35C19 /* TreeNodeTableViewCell.swift */,
+				D64F215022818BA100E35C19 /* TreeNodeTableViewCell.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D64F215422818BA900E35C19 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D64F215522818BB200E35C19 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D64F215722818BE500E35C19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D64F215822818BEF00E35C19 /* tree_ex.png */,
+				D64F215922818BF000E35C19 /* tree_ec.png */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D64F211222818B3F00E35C19 /* TreeTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64F213B22818B4000E35C19 /* Build configuration list for PBXNativeTarget "TreeTableView" */;
+			buildPhases = (
+				D64F210F22818B3F00E35C19 /* Sources */,
+				D64F211022818B3F00E35C19 /* Frameworks */,
+				D64F211122818B3F00E35C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeTableView;
+			productName = TreeTableView;
+			productReference = D64F211322818B3F00E35C19 /* TreeTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D64F212622818B4000E35C19 /* TreeTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64F213E22818B4000E35C19 /* Build configuration list for PBXNativeTarget "TreeTableViewTests" */;
+			buildPhases = (
+				D64F212322818B4000E35C19 /* Sources */,
+				D64F212422818B4000E35C19 /* Frameworks */,
+				D64F212522818B4000E35C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D64F212922818B4000E35C19 /* PBXTargetDependency */,
+			);
+			name = TreeTableViewTests;
+			productName = TreeTableViewTests;
+			productReference = D64F212722818B4000E35C19 /* TreeTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D64F213122818B4000E35C19 /* TreeTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64F214122818B4000E35C19 /* Build configuration list for PBXNativeTarget "TreeTableViewUITests" */;
+			buildPhases = (
+				D64F212E22818B4000E35C19 /* Sources */,
+				D64F212F22818B4000E35C19 /* Frameworks */,
+				D64F213022818B4000E35C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D64F213422818B4000E35C19 /* PBXTargetDependency */,
+			);
+			name = TreeTableViewUITests;
+			productName = TreeTableViewUITests;
+			productReference = D64F213222818B4000E35C19 /* TreeTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D64F210B22818B3F00E35C19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "MobioApp Limited";
+				TargetAttributes = {
+					D64F211222818B3F00E35C19 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D64F212622818B4000E35C19 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D64F211222818B3F00E35C19;
+					};
+					D64F213122818B4000E35C19 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D64F211222818B3F00E35C19;
+					};
+				};
+			};
+			buildConfigurationList = D64F210E22818B3F00E35C19 /* Build configuration list for PBXProject "TreeTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D64F210A22818B3F00E35C19;
+			productRefGroup = D64F211422818B3F00E35C19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D64F211222818B3F00E35C19 /* TreeTableView */,
+				D64F212622818B4000E35C19 /* TreeTableViewTests */,
+				D64F213122818B4000E35C19 /* TreeTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D64F211122818B3F00E35C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F212122818B4000E35C19 /* LaunchScreen.storyboard in Resources */,
+				D64F211E22818B4000E35C19 /* Assets.xcassets in Resources */,
+				D64F214A22818B8D00E35C19 /* DataInof.plist in Resources */,
+				D64F216F22818C0B00E35C19 /* Main.storyboard in Resources */,
+				D64F215A22818BF000E35C19 /* tree_ex.png in Resources */,
+				D64F215322818BA100E35C19 /* TreeNodeTableViewCell.xib in Resources */,
+				D64F215B22818BF000E35C19 /* tree_ec.png in Resources */,
+				D64F214B22818B8D00E35C19 /* DataInofor.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F212522818B4000E35C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F213022818B4000E35C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D64F210F22818B3F00E35C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F215122818BA100E35C19 /* TreeTableView.swift in Sources */,
+				D64F215222818BA100E35C19 /* TreeNodeTableViewCell.swift in Sources */,
+				D64F214C22818B8D00E35C19 /* TreeNodeHelper.swift in Sources */,
+				D64F215622818BB300E35C19 /* ViewController.swift in Sources */,
+				D64F211722818B3F00E35C19 /* AppDelegate.swift in Sources */,
+				D64F214922818B8D00E35C19 /* TreeNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F212322818B4000E35C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F212C22818B4000E35C19 /* TreeTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F212E22818B4000E35C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F213722818B4000E35C19 /* TreeTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D64F212922818B4000E35C19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D64F211222818B3F00E35C19 /* TreeTableView */;
+			targetProxy = D64F212822818B4000E35C19 /* PBXContainerItemProxy */;
+		};
+		D64F213422818B4000E35C19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D64F211222818B3F00E35C19 /* TreeTableView */;
+			targetProxy = D64F213322818B4000E35C19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D64F211F22818B4000E35C19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64F212022818B4000E35C19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D64F213922818B4000E35C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D64F213A22818B4000E35C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D64F213C22818B4000E35C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = TreeTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.TreeTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D64F213D22818B4000E35C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = TreeTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.TreeTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D64F213F22818B4000E35C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = TreeTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.TreeTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreeTableView.app/TreeTableView";
+			};
+			name = Debug;
+		};
+		D64F214022818B4000E35C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = TreeTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.TreeTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreeTableView.app/TreeTableView";
+			};
+			name = Release;
+		};
+		D64F214222818B4000E35C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = TreeTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.TreeTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TreeTableView;
+			};
+			name = Debug;
+		};
+		D64F214322818B4000E35C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 429CSS9779;
+				INFOPLIST_FILE = TreeTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.TreeTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TreeTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D64F210E22818B3F00E35C19 /* Build configuration list for PBXProject "TreeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64F213922818B4000E35C19 /* Debug */,
+				D64F213A22818B4000E35C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D64F213B22818B4000E35C19 /* Build configuration list for PBXNativeTarget "TreeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64F213C22818B4000E35C19 /* Debug */,
+				D64F213D22818B4000E35C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D64F213E22818B4000E35C19 /* Build configuration list for PBXNativeTarget "TreeTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64F213F22818B4000E35C19 /* Debug */,
+				D64F214022818B4000E35C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D64F214122818B4000E35C19 /* Build configuration list for PBXNativeTarget "TreeTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64F214222818B4000E35C19 /* Debug */,
+				D64F214322818B4000E35C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D64F210B22818B3F00E35C19 /* Project object */;
+}
